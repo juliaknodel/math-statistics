@@ -31,9 +31,17 @@ def plot_linear_regr(x, y, text):
     print('МНМ: alpha[0] = ' + str(a0) + ', alpha[1] = ' + str(a1))
 
     plt.scatter(x[1:-2], y[1:-2], label='Выборка', edgecolor='blue')
-    plt.plot(x, x * (2 * np.ones(len(x))) + 2 * np.ones(len(x)), label='Модель', color='red')
-    plt.plot(x, x * (b1 * np.ones(len(x))) + b0 * np.ones(len(x)), label='МHK', color='pink')
-    plt.plot(x, x * (a1 * np.ones(len(x))) + a0 * np.ones(len(x)), label='МHM', color='orange')
+    y_model = x * (2 * np.ones(len(x))) + 2 * np.ones(len(x))
+    y_mnk = x * (b1 * np.ones(len(x))) + b0 * np.ones(len(x))
+    y_mnm = x * (a1 * np.ones(len(x))) + a0 * np.ones(len(x))
+
+    y_dist_mnk = get_distance(y_model, y_mnk)
+    y_dist_mnm = get_distance(y_model, y_mnm)
+    print('mnk_dist: ' + str(y_dist_mnk))
+    print('mnm_dist: ' + str(y_dist_mnm))
+    plt.plot(x, y_model, label='Модель', color='red')
+    plt.plot(x, y_mnk, label='МHK', color='pink')
+    plt.plot(x, y_mnm, label='МHM', color='orange')
     plt.xlim([-1.8, 2])
 
     plt.xlabel('x')
@@ -43,6 +51,11 @@ def plot_linear_regr(x, y, text):
 
     plt.savefig(text + '.png', format='png')
     plt.show()
+
+
+def get_distance(y_model, y_regr):
+    dist_y = sum([(y_model[i] - y_regr[i])**2 for i in range(len(y_model))])
+    return dist_y
 
 
 x = np.arange(-1.8, 2, 0.2)

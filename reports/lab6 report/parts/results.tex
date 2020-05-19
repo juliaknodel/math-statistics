@@ -1,10 +1,12 @@
 \subsection{Оценки коэффициентов линейной регрессии}
+	
+	Метрика удаленности: $distance = \sum_{i=0}^{n}(y_{model}[i]-y_{regr}[i])^2$
 	\subsubsection{Выборка без возмущений}
 		\begin{enumerate}
 			\item{Критерий наименьших квадратов:}
-			$\hat{a}\approx 1.91$, $\hat{b}\approx 2.06$
+			$\hat{a}\approx 1.91$, $\hat{b}\approx 1.87$
 			\item{Критерий наименьших модулей:}
-			$\hat{a}\approx 2.03$, $\hat{b}\approx 1.87$
+			$\hat{a}\approx 1.84$, $\hat{b}\approx 1.71$
 		\end{enumerate}
 		\begin{figure}[H]
 			\centering
@@ -12,13 +14,15 @@
 			\caption{Выборка без возмущений}
 			\label{w/o_pert}
 		\end{figure}
+		МНК distance = 0.49 \\
+		МНМ distance = 2.31
 	
 	\subsubsection{Выборка с возмущениями}
 		\begin{enumerate}
 			\item{Критерий наименьших квадратов:}
-			$\hat{a}\approx 1.91$, $\hat{b}\approx 0.48$
+			$\hat{a}\approx 1.91$, $\hat{b}\approx 0.29$
 			\item{Критерий наименьших модулей:}
-			$\hat{a}\approx 2.03$, $\hat{b}\approx 1.87$
+			$\hat{a}\approx 1.62$, $\hat{b}\approx 1.88$
 		\end{enumerate}
 		\begin{figure}[H]
 			\centering
@@ -26,5 +30,7 @@
 			\caption{Выборка с возмущениями}
 			\label{w_pert}
 		\end{figure}
+		МНК distance = 66.24 \\
+		МНМ distance = 2.97
 
 	
