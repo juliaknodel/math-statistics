@@ -1,0 +1,44 @@
+\providecommand \autonum@processReference [2]{}
+\babel@toc {russian}{}
+\contentsline {section}{\numberline {1}Постановка задачи}{4}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Задание 1}{4}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Задание 2}{4}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Задание 3}{4}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Задание 4}{4}{subsection.1.4}%
+\contentsline {section}{\numberline {2}Теория}{5}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Распределения}{5}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Гистограмма}{5}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Определение}{5}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Графическое описание}{5}{subsubsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.3}Использование}{6}{subsubsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.3}Вариационный ряд}{6}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Выборочные числовые характеристики}{6}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.1}Характеристики положения}{6}{subsubsection.2.4.1}%
+\contentsline {subsubsection}{\numberline {2.4.2}Характеристики рассеяния}{7}{subsubsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.5}Боксплот Тьюки}{7}{subsection.2.5}%
+\contentsline {subsubsection}{\numberline {2.5.1}Определение}{7}{subsubsection.2.5.1}%
+\contentsline {subsubsection}{\numberline {2.5.2}Описание}{7}{subsubsection.2.5.2}%
+\contentsline {subsubsection}{\numberline {2.5.3}Построение}{7}{subsubsection.2.5.3}%
+\contentsline {subsection}{\numberline {2.6}Теоретическая вероятность выбросов}{7}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}Эмпирическая функция распределения}{8}{subsection.2.7}%
+\contentsline {subsubsection}{\numberline {2.7.1}Статистический ряд}{8}{subsubsection.2.7.1}%
+\contentsline {subsubsection}{\numberline {2.7.2}Определение}{8}{subsubsection.2.7.2}%
+\contentsline {subsubsection}{\numberline {2.7.3}Описание}{8}{subsubsection.2.7.3}%
+\contentsline {subsection}{\numberline {2.8}Оценки плотности вероятности}{9}{subsection.2.8}%
+\contentsline {subsubsection}{\numberline {2.8.1}Определение}{9}{subsubsection.2.8.1}%
+\contentsline {subsubsection}{\numberline {2.8.2}Ядерные оценки}{9}{subsubsection.2.8.2}%
+\contentsline {section}{\numberline {3}Реализация}{10}{section.3}%
+\contentsline {section}{\numberline {4}Результаты}{10}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Гистограммы и графики плотности распределения}{10}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Характеристики положения и рассеяния}{12}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Боксплот Тьюки}{13}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Доля выбросов}{15}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Теоретическая вероятность выбросов}{15}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Эмпирическая функция распределения}{15}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.7}Ядерные оценки плотности распределения}{17}{subsection.4.7}%
+\contentsline {section}{\numberline {5}Обсуждение}{22}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Гистограмма и график плотности распределения}{22}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Характеристики положения и рассеяния}{22}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Боксплот Тьюки и доля выбросов}{23}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Ядерные оценки плотности распределения}{23}{subsection.5.4}%
+\contentsline {section}{\numberline {6}Приложения}{23}{section.6}%
