@@ -1,2 +1,4 @@
 # math-statistics
-lab 5-8
+all labs 1-8
+
+tasks description in reports
